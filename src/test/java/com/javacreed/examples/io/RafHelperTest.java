@@ -22,7 +22,7 @@ public class RafHelperTest {
   @Test
   public void test() throws Exception {
     final String data = FileUtils.readFileToString(new File(getClass().getResource("/samples/Cologne.txt").toURI()),
-        "UTF-8");
+                                                   "UTF-8");
 
     final File file = RafHelperTest.createSampleFile(data);
 

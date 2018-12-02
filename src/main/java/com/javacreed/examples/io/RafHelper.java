@@ -15,7 +15,7 @@ public class RafHelper implements AutoCloseable {
     /**
      * Open for reading only. Invoking any of the write methods of the resulting object will cause an
      * java.io.IOException to be thrown.
-     * 
+     *
      * Locks cannot be used in this mode
      */
     READ_ONLY("r"),
